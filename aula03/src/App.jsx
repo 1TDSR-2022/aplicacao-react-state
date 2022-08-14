@@ -1,23 +1,21 @@
-import React, { useState } from "react";
-import TesteFilho from "./componentes/testeFilho/testeFilho";
+import React, {useState} from "react";
 
 export default function App(){
 
-    let nome = "Igor"
+        let nome = "Igor"
 
-    const[valorState, setValorState] = useState(5)
+        const mudaNome = ()=>{
+            nome = mudaNome.toUpperCase()
+            console.log(nome)
+            return nome
+        }
 
-    }
-        
-    
     return(
         <div>
             <h1>ESTUDO SOBRE STATE</h1>
-            <button onClick={()=> setValorState()}></button>
+
+            <button onClick={()=>mudaNome()}>ALTERAR-NOME</button>
             <h2>Nome: {nome}</h2>
-            <TesteFilho
-            valorStateProps={valorState}
-            setValorStateProps={setValorState}
-            />
         </div>
     )
+}
