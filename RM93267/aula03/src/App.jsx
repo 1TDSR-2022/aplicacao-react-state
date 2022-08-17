@@ -1,0 +1,25 @@
+import React, { useState } from 'react'
+
+export default function App(){
+
+
+
+    
+
+    let nome = 'lucas'
+
+    const mudaNome = () =>{
+        nome = nome.toUpperCase()
+        console.log(nome)
+        return nome
+    }
+
+    return(
+        <>
+            <h1>ESTUDO SOBRE STATE</h1>
+
+            <button onClick={() => mudaNome()}>Muda nome</button>
+            <h2>Nome: {nome}</h2>
+        </>
+    )
+}
