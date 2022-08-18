@@ -15,7 +15,7 @@ export default function App(){
 
     return(
         <>
-            <h1 style={{color: 'red', textAlign: 'center'}}>ESTUDO SOBRE STATE</h1>
+            <h1 style={{color: 'green', textAlign: 'center', backgroundColor: 'blue'}}>ESTUDO SOBRE STATE</h1>
 
             <button style={btnObjEstilo}onClick={() => setValorState(valorState + 10)}>Soma State</button>
             <h2>Valor do state: {valorState}</h2>
