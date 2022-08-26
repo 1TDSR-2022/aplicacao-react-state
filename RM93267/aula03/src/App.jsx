@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
-import TesteFilho from './components/testeFilho/TesteFilho'
+import Home from './components/home/Home'
+import Semaforo from './components/semaforo/Semaforo'
+import Carros from './components/carros/Carros1';
+import Carteirinha from './components/carteirinha/Carteirinha';
 
 export default function App(){
 
@@ -15,7 +18,17 @@ export default function App(){
 
     return(
         <>
-            <h1 style={{color: 'green', textAlign: 'center', backgroundColor: 'blue'}}>ESTUDO SOBRE STATE</h1>
+          <Home/>
+          <Semaforo/>
+          <Carros/>
+          <Carteirinha/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+          <h1 style={{color: 'green', textAlign: 'center', backgroundColor: 'blue'}}>ESTUDO SOBRE STATE</h1>
 
             <button style={btnObjEstilo}onClick={() => setValorState(valorState + 10)}>Soma State</button>
             <h2>Valor do state: {valorState}</h2>

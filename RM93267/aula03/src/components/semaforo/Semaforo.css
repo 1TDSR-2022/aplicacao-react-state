@@ -1,0 +1,19 @@
+
+.G{
+    background-color: rgb(1, 59, 1);
+  
+}
+.R{
+    background-color: rgb(76, 2, 2);
+}
+.Y{
+    background-color: rgb(48, 48, 1);
+}
+
+.ContainerSon{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 50%;
+}
