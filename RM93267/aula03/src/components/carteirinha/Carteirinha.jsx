@@ -33,13 +33,14 @@ export default function Carteirinha(){
             <section id='cadastro'>
                 <img src={fotoP} alt="icon perfil" width="20%"/>
                 <form>
-                    <input type="text" name='nome' id='nome'/>
+                   
+                    <input type="text" name='nome' id='nome' value='nome'></input>
                     <br />
-                    <input type="number" name='rm' id='rm'/>
+                    <input type="text" name='rm' id='rm' value='rm'/>
                     <br />
-                    <input type="text" name='curso' id='curso'/>
+                    <input type="text" name='curso' id='curso' value='curso'/>
                     <br />
-                    <input type="text" name='turma' id='turma'/>
+                    <input type="text" name='turma' id='turma' value='turma'/>
                 </form>
             </section>
         </>
