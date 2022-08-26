@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import TesteFilho from './components/testeFilho/TesteFilho'
 import Home from './components/home/Home'
 import Semaforo from './components/semaforo/Semaforo'
 import Carros from './components/carros/Carros1';
