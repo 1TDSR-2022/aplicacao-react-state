@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import TesteFilho from './components/TesteFilho/TesteFilho';
-
+import Header from './components/exercicio01/Header'
+import Corpo from './components/exercicio01/Corpo'
+import Fooster from './components/exercicio01/Footer'
 
 export default function App() {
     
@@ -25,6 +27,10 @@ export default function App() {
             setValorStateProps={setValorState}
             atributoEstiloProps={btnObjEstilo}
         />
+        <Header/>
+        <Corpo/>
+        <Fooster/>
+
     </>
   )
 }
